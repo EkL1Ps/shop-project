@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,39 +8,65 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap"
-      rel="stylesheet"
-    />
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet"/>
 
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+</head>
+<body>
     <header class="header">
-      <div class="container">
+    <div class="container">
         <div class="row">
-          <div class="col-3">
+        <div class="col-3">
             <div class="logo">
-              <a href="">
+            <a href="">
                 <img src="images/logo.png" alt="logo" />
-              </a>
+            </a>
             </div>
-          </div>
-          <div class="col-6">
+        </div>
+        <div class="col-6">
             <nav>
-              <ul class="menu">
+            <ul class="menu">
                 <li><a href="">Home</a></li>
-                <li><a href="">Products</a></li>
+                <li><a href="">Products &blacktriangledown;</a>
+                    <ul>
+                        <li><a href="#">Lorem ipsum dolor</a></li>
+                        <li><a href="#">Sit amet</a></li>
+                        <li><a href="#">Consectetur adipisicing</a></li>
+                        <li><a href="#">Tempor incididunt</a></li>
+                        <li><a href="#">Dolore magna aliqua</a></li>
+                        <li><a href="#">Ut enim ad minim veniam</a></li>
+                        <li><a href="#">Quis nostrud</a></li>
+                        <li><a href="#">V</a></li>
+                    </ul>
+                </li>
                 <li><a href="">Payment</a></li>
                 <li><a href="">Shipping</a></li>
-              </ul>
+            </ul>
             </nav>
-          </div>
-          <div class="col-3">Search</div>
         </div>
-      </div>
+        <div class="col-3">
+            <span class="search">
+                <input type="text" placeholder="search" class="input-search"/>
+                <a href="">
+                <div class="img-search-block">
+                    <img src="images/search.png" alt="shop" class="img-search">
+                </div>
+                </a>
+            </span>
+            <a href="#">
+                <div class="basket">
+                    <img src="images/shop.png" alt="basket" class="icon-basket">
+                </div>
+            </a>
+            <div class="basket-number">
+            <span class="number-basket">4</span>
+            </div>
+        </div>  
+        </div>
+    </div>
     </header>
     <main class="main">main</main>
     <footer class="footer">footer</footer>
-  </body>
+</body>
 </html>
