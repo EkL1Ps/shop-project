@@ -5,9 +5,6 @@ body{
     font-family: 'Roboto', sans-serif;
     background-image: url(images/patt.png);
 }
-.center {
-    
-}
 .container{
     max-width: 1200px;
     width: 100%;
@@ -228,10 +225,6 @@ body{
     margin-bottom: 60px;
     display: flex;
 }
-.anyproblem {
-    height: 840px;
-    border: 1px solid white;
-}
 .way-LaT {
     width: 570px;
 }
@@ -248,6 +241,7 @@ body{
     width: 270px;
     height: 650px;
     border: 1px solid white;
+    background-color: #2c71b8;
 }
 .device1 {
     margin-right: 30px;
@@ -327,4 +321,115 @@ body{
 }
 .button-ATC:hover {
     background-color: #6498cf;
+}
+.devicetab-block {
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 270px;
+    height: 843px;
+    border: 1px solid #ffffff;   
+}
+.font-devicetype {
+    margin: 20px 0 0 30px;
+    font-size: 20px;
+    line-height: 20px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Roboto";
+    text-decoration: none;
+}
+.filter-checkbox-input {
+    display: none;
+}
+label {
+    display: flex;
+}
+.filter-checkbox-label::before {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    border: 1px solid white;
+    margin: 5px 5px 0 0;
+}
+.filter-checkbox-input:checked + .filter-checkbox-label::before {
+    background-color: white;
+}
+.margin-top-60 {
+    margin-top: 60px;
+}
+.show-more-option {
+    margin: 25px 0 0 13px;
+}
+.show-more-option a:hover {
+    color: #cadbed;
+}
+.button-submit {
+    width: 210px;
+    height: 50px;
+    margin: 20px 0 0 30px;
+    border: 1px solid white;
+    background-color: #2c71b8;
+    text-align: center;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+}
+.button-submit:hover {
+    background-color: #568dc6;
+}
+.size-picture {
+    z-index: 20;
+    position: relative;
+    padding: 4px;
+    border: 1px solid #2c71b8;
+    top: -190px;
+    left: 230px;
+}
+.size-picture img {
+    position: relative;
+    top: 4px;
+}
+.favorite-picture {
+    z-index: 20;
+    position: relative;
+    padding: 4px 5px 4px 5px;
+    border: 1px solid #2c71b8;
+    top: -150px;
+    left: 196px;
+}
+.favorite-picture img {
+    position: relative;
+    top: 4px;
+}
+.picture {
+    height: 200px;
+}
+.load-more {
+    width: 30%;
+    margin: auto;
+    font-size: 36px;
+    line-height: 40px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Roboto";
+    text-align: center;
+    text-decoration: none;
+}
+.load-more:hover {
+    color: #cadbed;
+}
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.75);
+    margin-top: 80px;
+    font-size: 21px;
+    color: #2c71b8;
+    font-weight: 300;
+    font-family: "Roboto";
+    text-align: center;
+}
+.footer span {
+    display: block;
+    padding-top: 40px;
 }
